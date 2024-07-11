@@ -33,7 +33,15 @@
   --font-weight-semibold: 600;
   --font-weight-bold: 700;
 }
+.toptop {
+  z-index: 1; /* set higher z-index value */
+  position: relative; /* position must be set for z-index to work */
+}
 
+.top {
+  z-index: 0; /* set lower z-index value */
+  position: relative; /* position must be set for z-index to work */
+}
 body {
   background-color: var(--white-color);
   font-family: var(--body-font-family);
